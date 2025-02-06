@@ -24,3 +24,24 @@ function adicionarAmigo()
         alert ("Por favor, insira um nome.");
     }
 }
+
+// Função para atualizar a lista de amigos na interface
+function atualizarListaAmigos() 
+{
+    // Pega o elemento UL onde a lista é exibida
+    let listaInterface = document.getElementById("listaAmigos");
+
+    // Limpa a lista atual
+    listaInterface.innerHTML = "";
+
+    // Loop para percorrer o array e criar um elemento <li> para cada nome
+    for (let i = 0; i < amigos.length; i++)
+    {
+        let listaItem = document.createElement("li");
+    // Atribui o nome do amigo 
+        listaItem.textContent = amigos[i]; 
+    //adiciona o item à lista
+        listaInterface.appendChild(listaItem);
+    }
+   
+}
