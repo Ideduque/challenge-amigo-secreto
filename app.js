@@ -43,5 +43,22 @@ function atualizarListaAmigos()
     //adiciona o item à lista
         listaInterface.appendChild(listaItem);
     }
-   
+}
+
+// Função para sortear um amigo da lista
+function sortearAmigo()
+{
+    if (amigos.length === 0) 
+    {
+        alert("Não há amigos na lista para sortear!");
+        return;
+    }
+
+    // Sorteia um número aleatório entre 0 e o tamanho da lista
+    let indiceSorteado = Math.floor(Math.random() * amigos.length);
+
+    // Exibe o resultado
+    let resultado = amigos[indiceSorteado];
+    document.getElementById("resultado").innerHTML = "Amigo sorteado: <strong>" + resultado + "</strong>";
+
 }
