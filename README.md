@@ -1,7 +1,7 @@
 <h1 align="center">  Challenge Amigo Secreto </h1>
-<p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=RED&style=for-the-badge"/>
-</p> 
+
+![AmigoSecreto](https://github.com/user-attachments/assets/7e2d9e8f-1f6f-447a-b27a-fb743979f0d0)
+
 
 ## :bookmark: Sobre
 
@@ -16,7 +16,8 @@ Isso me permitirá que foque em resolver o problema e melhorar meu raciocínio l
 ## :rocket: Site
 
  Acesse o site [Aqui](https://ideduque.github.io/challenge-amigo-secreto/)
- 
+
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=RED&style=for-the-badge"/>
 
 ## :hammer: Funcionalidades do projeto
 
@@ -35,5 +36,5 @@ Isso me permitirá que foque em resolver o problema e melhorar meu raciocínio l
 
 <h2>✨ Colaborador </h2>
 
-[<img src="./img/Foto_Flor/Josi_Foto Flor 2.png" width=200><br><sub>Joseilde Duque</sub>](https://www.linkedin.com/in/joseilde-rocha/)
+[<img src="https://github.com/user-attachments/assets/1c8d5be2-ac1f-4e51-97f2-8a2180a95ea2" width=150><br><sub>Joseilde Duque</sub>](https://www.linkedin.com/in/joseilde-rocha/)
 
